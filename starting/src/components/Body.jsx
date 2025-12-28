@@ -5,12 +5,11 @@ const Body = () => {
   return (
     <div>
       <div className="main">
-        {arr.map(function () {
-          return <h1>hello</h1>;
+        {arr.map(function (elem) {
+          return <h1>{elem} is hello</h1>;
         })}
       </div>
     </div>
   );
 };
-
 export default Body;
