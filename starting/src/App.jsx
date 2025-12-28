@@ -1,8 +1,9 @@
 import './index.css'
+import Nav from './components/Nav.jsx'
 const App = () => {
   return (
-    <div>App
-      <h1>hwlloee</h1>
+    <div>
+      <Nav />
     </div>
   )
 }
