@@ -3,7 +3,7 @@ const Nav = () => {
   return (
     <div>
       <div>
-        <nav className="nav">
+        <nav className="nav bg-pink-400 flex items-center justify-center">
           <h1>Horizon Courts</h1>
   <div className="nav-center">
     <h3>About Us</h3>
